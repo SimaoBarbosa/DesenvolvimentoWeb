@@ -1,0 +1,188 @@
+"m10":::"Senhora Nossa"
+
+"m11":::"Invocação a Deus"
+
+"m12":::"São Bento"
+
+"m131":::"Alvamar Overture"
+
+"m13":::"Casa de S. Paulo"
+
+"m14":::"Filarmonia"
+
+"m15":::"Caçadores do I"
+
+"m16":::"Homenagem ao Dr Manuel Vaz"
+
+"m17":::"Homenagem a Vila Verde"
+
+"m18":::"12 de Abril"
+
+"m19":::"Tarântula"
+
+"m1":::"Homenagem a J. Serra"
+
+"m20":::"Cassiopeia"
+
+"m21":::"António Nogueira"
+
+"m22":::"Marcha Eslava"
+
+"m23":::"Fate of the Gods"
+
+"m24":::"Vamos à Romaria"
+
+"m25":::"Português Suave"
+
+"m26":::"Cycles and Myths"
+
+"m27":::"Canções da Tradição"
+
+"m28":::"Abba Mia"
+
+"m29":::"Ross Roy"
+
+"m2":::"Armindo Alves"
+
+"m31":::"Highlights from 'Chess'"
+
+"m32":::"Cavalaria Ligeira"
+
+"m33":::"Paquito Chocolatero"
+
+"m34":::"Xabia"
+
+"m35":::"Bands Around the World"
+
+"m36":::"Hispânico"
+
+"m3":::"1989"
+
+"m40":::"Xutos Medley"
+
+"m41":::"Sonhos de Portugal"
+
+"m42":::"Pilatus: Mountain of Dragons"
+
+"m43":::"Marcha Radetzky"
+
+"m44":::"Vila Franca"
+
+"m45":::"Momentos Menores"
+
+"m46":::"Santana"
+
+"m47":::"Bailar em Nespereira"
+
+"m48":::"Transfiguração"
+
+"m49":::"Tannhauser Ouverture"
+
+"m4":::"Manuel Joaquim ALmeida"
+
+"m50":::"Harmonique"
+
+"m5":::"Holiday in Rio"
+
+"m6":::"São Martinho"
+
+"m7":::"Avé Maria"
+
+"m8":::"Corpo Místico"
+
+"m9":::"Súplica"
+
+"m10":::"Senhora Nossa"
+
+"m11":::"Invocação a Deus"
+
+"m12":::"São Bento"
+
+"m131":::"Alvamar Overture"
+
+"m13":::"Casa de S. Paulo"
+
+"m14":::"Filarmonia"
+
+"m15":::"Caçadores do I"
+
+"m16":::"Homenagem ao Dr Manuel Vaz"
+
+"m17":::"Homenagem a Vila Verde"
+
+"m18":::"12 de Abril"
+
+"m19":::"Tarântula"
+
+"m1":::"Homenagem a J. Serra"
+
+"m20":::"Cassiopeia"
+
+"m21":::"António Nogueira"
+
+"m22":::"Marcha Eslava"
+
+"m23":::"Fate of the Gods"
+
+"m24":::"Vamos à Romaria"
+
+"m25":::"Português Suave"
+
+"m26":::"Cycles and Myths"
+
+"m27":::"Canções da Tradição"
+
+"m28":::"Abba Mia"
+
+"m29":::"Ross Roy"
+
+"m2":::"Armindo Alves"
+
+"m31":::"Highlights from 'Chess'"
+
+"m32":::"Cavalaria Ligeira"
+
+"m33":::"Paquito Chocolatero"
+
+"m34":::"Xabia"
+
+"m35":::"Bands Around the World"
+
+"m36":::"Hispânico"
+
+"m3":::"1989"
+
+"m40":::"Xutos Medley"
+
+"m41":::"Sonhos de Portugal"
+
+"m42":::"Pilatus: Mountain of Dragons"
+
+"m43":::"Marcha Radetzky"
+
+"m44":::"Vila Franca"
+
+"m45":::"Momentos Menores"
+
+"m46":::"Santana"
+
+"m47":::"Bailar em Nespereira"
+
+"m48":::"Transfiguração"
+
+"m49":::"Tannhauser Ouverture"
+
+"m4":::"Manuel Joaquim ALmeida"
+
+"m50":::"Harmonique"
+
+"m5":::"Holiday in Rio"
+
+"m6":::"São Martinho"
+
+"m7":::"Avé Maria"
+
+"m8":::"Corpo Místico"
+
+"m9":::"Súplica"
+
