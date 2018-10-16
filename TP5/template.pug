@@ -1,0 +1,25 @@
+extends layout
+
+block corpo
+    .w3-container
+        .w3-card-4
+        header.w3-container.w3-light-grey
+            h1= obra.titulo
+        .w3-container
+            table.w3-table.w3-bordered
+                tr 
+                    th Tipo
+                    td obra.tipo
+                tr  
+                    th Compusitor
+                    td obra.compusitor
+                tr
+                    th Instrumentos
+                    td
+                        ul
+                            each inst in obra.instrumentos
+                                li
+                                    inst.nome
+        footer.w3-container.w3-light-grey
+            address Gerado por ObrasApp
+
