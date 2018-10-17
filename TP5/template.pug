@@ -3,29 +3,28 @@ extends layout
 block corpo
     .w3-container
         .w3-card-4
-        header.w3-container.w3-light-grey
-            h1
-                =obra.titulo
+            header.w3-container.w3-light-blue
+                h1= obra.titulo
         .w3-container
-            table.w3-table.w3-bordered
-                tr 
-                    th Tipo
-                    td 
-                        =obra.tipo
-                tr  
-                    th Compusitor
-                    td 
-                        =obra.compositor
-                tr
-                    th Instrumentos
-                    td
-                        ul
-                            each inst in obra.instrumentos
-                                li
-                                    =inst.nome
-            h6 
-                li
-                    a(href='http://localhost:5555') Voltar ao Índice
-        footer.w3-container.w3-light-grey
-            address Gerado por ObrasApp
+                table.w3-table.w3-all
+                    tr 
+                        th Tipo
+                        td 
+                            =obra.tipo
+                    tr  
+                        th Compositor
+                        td 
+                            =obra.compositor
+                    tr
+                        th Instrumentos
+                        td
+                            ul
+                                each inst in obra.instrumentos
+                                    li
+                                        =inst.nome
+    footer.w3-container.w3-light-grey
+        h4 
+              a(href='http://localhost:5555') Voltar ao Índice
+        address Gerado por ObrasApp
+        
 

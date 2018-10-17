@@ -4,11 +4,12 @@ var fs = require('fs')
 var pug = require('pug')
 
 http.createServer((req,res)=>{
+    var estilo = /w3\.css/
     var ourl = url.parse(req.url)
-    var obraUrl = /\/obra\//
+    var obraUrl = /\/obra\/m/
     if(ourl.pathname == '/'||ourl.pathname == '/index'){
         res.writeHead(200,{'Content-Type': 'text/html'})
-        fs.readFile('./obras-musicais-json/json/index.json','utf-8',(erro,dados) => {
+        fs.readFile('obras-musicais-json/json/index.json',(erro,dados) => {
             if (!erro){
                 res.write(pug.renderFile('index.pug',{obras:JSON.parse(dados)}))
             }
@@ -19,18 +20,20 @@ http.createServer((req,res)=>{
         
     }
     else if(obraUrl.test(ourl.pathname)){
-        var ficheiro = ourl.pathname.split('/')[2]
+        var ficheiro = ourl.pathname.split('/')[2] + '.json'
         res.writeHead(200,{'Content-Type': 'text/html'})
-        fs.readFile('./obras-musicais-json/json/'+ficheiro + '.json' , (erro,dados) => {
-            if (!erro)
+        console.log('Lendo o ficheiro: ' + ficheiro)
+        fs.readFile('obras-musicais-json/json/'+ficheiro ,(erro,dados) => {
+            if (!erro){
                 res.write(pug.renderFile('template.pug',{obra:JSON.parse(dados)}))
-            else
+            }else{
                 res.write('<p><b>Erro: </b> ' + erro + '</p>')
+            }
             res.end()
         })
         
     }
-    else if(ourl.pathname == '/w3.css') {
+    else if(estilo.test(ourl.pathname)){
         res.writeHead(200,{'Content-Type': 'text/css'})
         fs.readFile('estilo/w3.css', (erro,dados) => {
             if (!erro)
