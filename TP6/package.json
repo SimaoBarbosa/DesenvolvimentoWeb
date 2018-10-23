@@ -1,0 +1,16 @@
+{
+  "name": "tp6",
+  "version": "1.0.0",
+  "description": "ToDoApp",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Simao",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^5.0.0",
+    "nodemon": "^1.18.4",
+    "pug": "^2.0.3"
+  }
+}

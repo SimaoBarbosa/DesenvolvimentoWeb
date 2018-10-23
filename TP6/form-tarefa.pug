@@ -1,0 +1,45 @@
+extends layout
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Registo de uma tarefa
+            .w3-container
+                form.w3-container(action="/tarefa-recebida" method="POST")
+                    input.w3-input.w3-border.w3-light-grey(type="hidden" name="id" value=null)
+                    input.w3-input.w3-border.w3-light-grey(type="hidden" name="visivel" value="yes")
+                    label
+                        b Data de registo
+                    input.w3-input.w3-border.w3-light-grey(type="date" name="data")
+                    label
+                        b Prazo
+                    input.w3-input.w3-border.w3-light-grey(type="date" name="prazo")
+                    label
+                        b Descrição
+                    input.w3-input.w3-border.w3-light-grey(type="text" name="desc")
+                    label 
+                        b Prioridade
+                    table.w3-table-all
+                        tr
+                            th 
+                                label(for='tipo1')
+                                    p Alta
+                            td 
+                                input.w3-input.w3-border.w3-light-grey(type="radio" name="tipo" value="Alta")#tipo1
+                        tr
+                            th 
+                                label(for='tipo2')
+                                    p Média
+                            td 
+                                input.w3-input.w3-border.w3-light-grey(type="radio" name="tipo" value="Média")#tipo2
+                        tr
+                            th 
+                                label(for='tipo3')
+                                    p Baixa
+                            td 
+                                input.w3-input.w3-border.w3-light-grey(type="radio" name="tipo" value="Baixa")#tipo3
+                    input.w3-btn.w3-blue-grey(type="submit" value="Enviar")
+            footer.w3-container.w3-teal
+                a(href='/index') Voltar á Página Principal
+                address Gerado por ToDoApp
+

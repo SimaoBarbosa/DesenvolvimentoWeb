@@ -1,0 +1,24 @@
+extends layout
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h3 Tarefa registada
+            .w3-container
+                table.w3-table-all
+                    tr 
+                        th Data de registo
+                        td= tarefa.data
+                    tr 
+                        th Prazo
+                        td= tarefa.prazo
+                    tr 
+                        th Descrição
+                        td= tarefa.desc
+                    tr
+                        th Prioridade
+                        td= tarefa.tipo
+            footer.w3-container.w3-teal
+                a(href='/index') Voltar á Página Principal
+                address Gerado por ToDoApp
+
