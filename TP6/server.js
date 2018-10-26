@@ -11,8 +11,8 @@ var myServer = http.createServer((req,res)=>{
     var query = purl.query
     var regexApagar = /\/apagar\/id/
     var regexW3 = /w3.css/
-   // console.log('Recebi um pedido: '+purl.pathname)
-   // console.log('Com a query: ' + JSON.stringify(query))
+    console.log('Recebi um pedido: '+purl.pathname)
+    console.log('Com a query: ' + JSON.stringify(query))
 
     if (req.method == 'GET'){
         if(purl.pathname == '/' || purl.pathname == '/index'){
