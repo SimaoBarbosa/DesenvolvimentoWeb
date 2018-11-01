@@ -1,0 +1,37 @@
+extends layout
+block corpo
+    .w3-container
+        .w3-card-4
+            header.w3-container.w3-teal
+                h4 Ficheiros 
+            .w3-container
+                h3 Novo Ficheiro:
+                form.w3-container(action="/processaForm" method="POST" enctype='multipart/form-data')
+                    label
+                        b Ficheiro
+                    input.w3-input.w3-border.w3-light-grey(type="file" name="ficheiro")
+                    label
+                        b Descrição
+                    input.w3-input.w3-border.w3-light-grey(type="text" name="desc")
+                    input.w3-input.w3-border.w3-light-grey(type="hidden" name="date")
+                    input.w3-input.w3-border.w3-light-grey(type="hidden" name="time")
+                    input.w3-btn.w3-blue-grey(type="submit" value="Enviar")
+            .w3-container
+                h3 Lista de Ficheiros
+                table.w3-table-all
+                    tr 
+                        th Ficheiro
+                        th Descrição
+                        th Data
+                        th Tempo
+                    each file in lista
+                        tr 
+                            td
+                                a(href=file.path)
+                                    =file.name
+                            td=file.desc
+                            td=file.date
+                            td=file.time
+            footer.w3-container.w3-teal
+                address Gerado por UploadApp
+
