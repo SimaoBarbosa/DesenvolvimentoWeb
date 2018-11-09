@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "file:/C:/Users/Utilizdor/MEOCloud/4%C2%BAano/1%C2%BAsemestre/Desenvolvimento%20de%20Aplica%C3%A7%C3%B5es%20Web/dtd/manifesto.dtd">
+<manifesto>
+    <meta identificador="tp8">
+        <titulo>Trabalho Prático 8</titulo>      
+        <dataInicio>6 Novembro 2018 </dataInicio>
+        <dataFim>13 Novembro 2018 </dataFim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome>Simão Barbosa</nome>
+            <email>a77689@alunos.uminho.pt</email>
+            <identificador>A77689</identificador>
+            <foto path="foto.png"/>
+        </membro>
+    </equipa>
+    <resumo>
+        <para>O objetivo deste trabalho prático foi desenvolver um servidor web de upload de ficheiros, em que é possivel ver todos os ficheiros,as datas e as horas do upload, num só página (SPA), com persistência em JSON file, com ferramentas como jquery e express.</para>
+    </resumo>
+    <resultados>
+        <resultado url="https://github.com/SimaoBarbosa/DesenvolvimentoWeb/tree/master/TP8">Página github com o servidor web.</resultado>
+    </resultados>
+</manifesto>
