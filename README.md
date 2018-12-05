@@ -1,1 +1,1 @@
-# DesenvolvimentoWeb 2018 Uminho
+# Desenvolvimento APP Web 2018 Uminho
