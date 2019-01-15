@@ -1,0 +1,10 @@
+Testa a API de dados com o Postman e dá resposta às seguintes questões:
+Quantos processos (nível 3) e quais são 
+(obtem uma lista em JSON; podes concatenar sublistas invocando várias queries), existem na descendência da classe 200?
+R:
+    Existem 22 , lista em ficheiro alinea1.json
+Quantos subprocessos existem? (classes de nível 4)
+R:
+    Existem 116 , alinea2.json
+Quantos processos (classes de nível 3) se encontram subdivididos em níveis 4?
+R:

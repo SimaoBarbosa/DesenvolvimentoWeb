@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE manifesto SYSTEM "file:/C:/Users/Utilizdor/MEOCloud/4%C2%BAano/1%C2%BAsemestre/Desenvolvimento%20de%20Aplica%C3%A7%C3%B5es%20Web/dtd/manifesto.dtd">
+<manifesto>
+    <meta identificador="teste">
+        <titulo>Teste Prático - Avaliação</titulo>      
+        <dataInicio>15 Janeiro 2019 </dataInicio>
+        <dataFim>15 Janeiro 2019 </dataFim>
+        <supervisor>
+            <nome>José Carlos Ramalho</nome>
+            <email>jcr@di.uminho.pt</email>
+            <website>http://www.di.uminho.pt/~jcr</website>
+        </supervisor>
+    </meta>
+    <equipa>
+        <membro>
+            <nome>Simão Barbosa</nome>
+            <email>a77689@alunos.uminho.pt</email>
+            <identificador>A77689</identificador>
+            <foto path="foto.png"/>
+        </membro>
+    </equipa>
+    <resumo>
+        <para>No Exercício 1 converti o dataset de XML para JSON utilizando um conversor online.</para>
+        <para>Utilizei o seguinte comando para importar o dataset para o MongoDB: ".\mongoimport.exe --db comp --collection compositores --type json --file compositores.json --jsonArray", colocando antes o dataset em jsonfile na diretoria do mongo.</para>
+    </resumo>
+    <resultados>
+        <resultado url="https://github.com/SimaoBarbosa/DesenvolvimentoWeb/tree/master/Teste/Exer1">Página github com o Exercício 1.</resultado>
+        <resultado url="https://github.com/SimaoBarbosa/DesenvolvimentoWeb/tree/master/Teste/Exer2">Página github com o Exercício 2.</resultado>
+    </resultados>
+</manifesto>

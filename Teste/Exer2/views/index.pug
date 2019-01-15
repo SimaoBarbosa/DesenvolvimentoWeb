@@ -1,0 +1,28 @@
+extends layout
+block content
+  .w3-container
+    h1 Lista de Classes Nivel&nbsp;
+      =nivel
+      |
+      |
+      if codigo 
+        =codigo
+    each d in desc
+      b
+        =d.titulo
+      p Status:&nbsp;
+        =d.status
+      if d.procTipo
+        p Tipo:&nbsp;
+          =d.procTipo
+      p
+        =d.desc
+
+    each c in classes
+      b=c.titulo
+      br
+      a(href="http://localhost:3000/codigo/?codigo="+c.codigo)=c.codigo
+      br
+      hr
+    if codigo
+      a(href="http://localhost:3000/") Voltar á página principal
